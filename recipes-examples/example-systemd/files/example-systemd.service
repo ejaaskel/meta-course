@@ -1,0 +1,8 @@
+[Unit]
+Description=example-systemd
+
+[Service]
+ExecStart=/usr/bin/example_systemd.sh
+
+[Install]
+WantedBy=multi-user.target
